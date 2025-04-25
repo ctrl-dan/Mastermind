@@ -4,7 +4,7 @@ using System.Linq;
 
 using MasterMind;
 
-Menu.MainMenu();
+Menus.MainMenu();
 
 char input;
 bool exit = false; 
@@ -12,16 +12,16 @@ bool exit = false;
 do
 {
     input = char.ToLower(Console.ReadKey().KeyChar); //user input
-    switch (input) //swtich for selecting options
+    switch (input) //switch for selecting options
     {
-        case '1':   //New game
-            Game.Play();
-            Menu.MainMenu();
+        case '1':   //Start Game
+            Game.GameStart();
+            Menus.MainMenu();
             break;
 
         case '2':   //Help
-            Menu.Help();
-            Menu.MainMenu();
+            Menus.Help();
+            Menus.MainMenu();
             break;
 
         case '3':  //Exit

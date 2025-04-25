@@ -100,7 +100,7 @@ namespace MasterMind
 
         }
         
-        public static void Play()
+        public static void GameStart()
         {
 
             //makes target number

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MasterMind
 {
-    public class Menu
+    public class Menus
     {
         public static void MainMenu() //shows the main menu
         {
             Console.Clear();
-            Console.WriteLine("Welcome to...");
+            Console.WriteLine("\nWelcome to...");
             Console.WriteLine();
             Console.WriteLine("___  ___          _                      _           _ \r\n|  \\/  |         | |                    (_)         | |\r\n| .  . | __ _ ___| |_ ___ _ __ _ __ ___  _ _ __   __| |\r\n| |\\/| |/ _` / __| __/ _ \\ '__| '_ ` _ \\| | '_ \\ / _` |\r\n| |  | | (_| \\__ \\ ||  __/ |  | | | | | | | | | | (_| |\r\n\\_|  |_/\\__,_|___/\\__\\___|_|  |_| |_| |_|_|_| |_|\\__,_|\r\n                                                       \r\n                                                       ");
             Console.WriteLine("Press '1' for New Game");
