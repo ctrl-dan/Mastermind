@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{01F18A7D-AD04-4185-97FA-72849C9D4100}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F18A7D-AD04-4185-97FA-72849C9D4100}|MasterMind\\MasterMind.csproj|c:\\users\\dan\\desktop\\mastermind\\mastermind\\mastermind\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F18A7D-AD04-4185-97FA-72849C9D4100}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01F18A7D-AD04-4185-97FA-72849C9D4100}|MasterMind\\MasterMind.csproj|c:\\users\\dan\\desktop\\mastermind\\mastermind\\mastermind\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F18A7D-AD04-4185-97FA-72849C9D4100}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F18A7D-AD04-4185-97FA-72849C9D4100}|MasterMind\\MasterMind.csproj|c:\\users\\dan\\desktop\\mastermind\\mastermind\\mastermind\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F18A7D-AD04-4185-97FA-72849C9D4100}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\Mastermind\\MasterMind\\MasterMind\\Game.cs",
               "RelativeDocumentMoniker": "MasterMind\\Game.cs",
               "ToolTip": "C:\\Users\\Dan\\Desktop\\Mastermind\\MasterMind\\MasterMind\\Game.cs",
               "RelativeToolTip": "MasterMind\\Game.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDUAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T14:22:50.519Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "MasterMind\\Menus.cs",
               "ToolTip": "C:\\Users\\Dan\\Desktop\\Mastermind\\MasterMind\\MasterMind\\Menus.cs",
               "RelativeToolTip": "MasterMind\\Menus.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T14:21:07.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\Mastermind\\MasterMind\\MasterMind\\Program.cs",
               "RelativeDocumentMoniker": "MasterMind\\Program.cs",
               "ToolTip": "C:\\Users\\Dan\\Desktop\\Mastermind\\MasterMind\\MasterMind\\Program.cs",
               "RelativeToolTip": "MasterMind\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T14:20:53.257Z",
               "EditorCaption": ""

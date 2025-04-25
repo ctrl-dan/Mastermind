@@ -27,13 +27,13 @@ namespace MasterMind
             Console.WriteLine("Each digit is between 1 and 6.");
             Console.WriteLine("You have 10 tries to guess the number.");
             Console.WriteLine("After each guess, you will recieve feeback:");
-            Console.WriteLine("A '+' means your guess was correct in one of the four positions.");
-            Console.WriteLine("A '-' means that one of your digits is in the number, but not in the corrrect position.");
+            Console.WriteLine("'+' means your guess was correct in one of the four positions.");
+            Console.WriteLine("'-' means that one of your digits is in the number, but not in the corrrect position.");
             Console.WriteLine();
             Console.WriteLine("Press any other key to return to the main menu");
 
-            char charHelp; //saves the key for navigation
-            charHelp = char.ToLower(Console.ReadKey().KeyChar); //user input
+            char charHelp;
+            charHelp = char.ToLower(Console.ReadKey().KeyChar);
 
         }
     }

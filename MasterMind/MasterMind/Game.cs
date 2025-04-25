@@ -39,10 +39,8 @@ namespace MasterMind
             return true; // All checks passed
         }
 
-        public static string CheckInput(string guess, int[] target)
+        public static string CheckInput(int [] userInput, int[] target)
         {
-            int[] userInput = guess.Select(v => v - '0').ToArray(); //converts guess to array v
-
             int correctNumber = 0;
             int correctPosition = 0;
             string exitString = "";
@@ -85,7 +83,6 @@ namespace MasterMind
             }
             else //builds exit string of '+' and '-' and returns
             {
-
                 for (int i = 0; i < correctPosition; i++)
                 {
                     exitString = exitString + "+";
@@ -94,7 +91,6 @@ namespace MasterMind
                 {
                     exitString = exitString + "-";
                 }
-
                 return exitString;
             }
 
@@ -129,7 +125,8 @@ namespace MasterMind
                 }
                 count++;
 
-                string response = CheckInput(input, target); //calls function to check input
+                userInput = input.Select(v => v - '0').ToArray(); //makes sure that userInput is up to date
+                string response = CheckInput(userInput, target); //calls function to check input
 
                 if(response == "Correct") //if completely correct then user win
                 {
