@@ -1,7 +1,8 @@
 # Mastermind
 Mastermind Game written in C# for Quadax
 
-The game can be run from Visual Studio by launching through the MasterMind.sln or MasterMind.csproj or through the .exe file here: [Mastermind.exe](MasterMind/MasterMind/bin/Debug/net8.0/MasterMind.exe)
+The game can be run from Visual Studio by launching through the MasterMind.sln or MasterMind.csproj 
+or through the .exe file here: [Mastermind.exe](MasterMind/MasterMind/bin/Debug/net8.0/MasterMind.exe)
 
 
 The game contains a menu screen where the options include
